@@ -78,3 +78,14 @@ input{
 div#users > td{
     border:1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  body{
+    height: 1000px;
+    background:url('claySm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+}
